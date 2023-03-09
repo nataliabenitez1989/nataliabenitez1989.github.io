@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romina Aquino - CV</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://m.media-amazon.com/images/I/715lQyCMD9L.png">
+
+
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="p-3" id="header">
+
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="./index.html" class="nav-link px-2" id="opcion1">Inicio</a></li>
+              <li><a href="./Contacto.html" class="nav-link px-2" id="opcion2">Contacto</a></li>
+                    
+            </ul>
+   
+          </div>
+        </div>
+
+        <div class="separador-lineal-header"></div>
+        
+    </header>
+
+    <!-- Contenido "Unica seccion" -->
+    <div class="container" id="contenido-contacto">
+
+      <!-- Sub-division de doble columna dentro de fila -->
+      <div class="row">
+      <div class="col">
+
+          <section id="agradecimiento-contacto">
+            <legend>¡Muchas gracias por su interés!</legend>
+            <ul>
+              <li id="texto-contacto">
+                Se agradece enormemente el interés de contacto. Aquí se le provee <br>
+                la opción de enviarme un notificado con la razón y su información para poder hacer contacto. 
+              </li>
+            </ul>
+          </section>
+  
+          <form id="informacion-contacto">
+              <legend>Información de contacto</legend>
+  
+              <input type="email" required placeholder="Ingrese su mail de contacto" id="input-mail">
+              <input type="text" required placeholder="Ingrese su razón de contacto. Ej: Oferta laboral." id="input-razon">
+  
+              <button type="submit" id="btn-enviar">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

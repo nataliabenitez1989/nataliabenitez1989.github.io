@@ -1,0 +1,460 @@
+/* ============================================ I N D E X (pag) ================================================== */
+
+/*----------------- Implementacion de fuentes ----------------------*/
+@font-face 
+{
+    font-family: beaufort;
+    src: url(./assets/fonts/BeaufortForLoL-OTF/BeaufortforLOL-Bold.otf);
+}
+
+@font-face 
+{
+    font-family: spiegel;
+    src: url(./assets/fonts/Spiegel-OTF/Spiegel-Bold.otf);
+}
+
+li
+{
+    list-style: none;
+}
+
+legend
+{
+    color: #c83cb1;
+    font-size: 22px;
+    text-align: center;
+    background-color: #010a13;
+    border-bottom: 1px solid #c83cb1;
+    border-radius: 18px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    opacity: 85%;
+    margin-bottom: 1.5rem;
+    padding: 0.3rem;
+}
+
+.h5Carrousel
+{
+  background-color: #010a13;
+  color: #c83cb1;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border: 1px solid #c83cb1;
+  padding: 0.2rem;
+  margin-top: 0.2rem;
+}
+
+.separador-lineal
+{
+    border: 1px solid #c83cb1;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#btn-verMas, #btn-verMas2, #btn-volver, #btn-volver2
+{
+    border: 1px solid #c83cb1;
+    border-radius: 18px;
+    font-size: 20px;
+    width: 100%;
+    height: 3.2rem;
+    margin-top: 1.5rem;
+    background-color: #010a13;
+    opacity: 85%;
+    color:#c83cb1;
+}
+
+#btn-verMas, #btn-verMas2
+{
+  animation: pulsate-bck 2.5s ease-in-out infinite both;
+}
+
+/*------------------- Configuracion del background ------------------*/
+body
+{
+    background-image:url("http://www.solofondos.com/wp-content/uploads/2016/03/giphy-1.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    max-width: 100%;
+    margin-right: 0%; 
+}
+
+/*------------------- Header ------------------*/
+#header
+{
+    font-size: 20px;
+    background-color: #010a13;
+    color: #c83cb1;
+    text-align: center;
+    opacity: 85%;
+}
+
+#opcion1, #opcion2
+{
+    color: #c83cb1;
+    display: inline-block;
+    margin-left: 25vw;
+    animation: tracking-in-expand 3.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+}
+
+.separador-lineal-header
+{
+    border: 1px solid #c83cb1;
+}
+
+/*------------------- Contenido principal ------------------*/
+
+    /*------------------- Buscador ------------------*/
+    #buscador-dinamico
+    {
+        color: #c83cb1;
+        background-color: #010a13;
+        opacity: 85%;
+        border: 1px solid #c83cb1;
+        font-size: 18px;
+        border-radius: 8px;
+        height: 3rem;
+        text-align: center;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+
+    .opcion-buscador
+    {
+        font-family: 'spiegel';
+        width: 25%;
+        height: 90%;
+        margin-bottom: 6px;       
+        background-color: #010a13;
+        color: #c83cb1;
+        border: 0px solid black;
+        animation: tracking-in-expand 2.3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    }
+
+    .opcion-buscador:hover
+    {
+        cursor: url("./assets/cursores/cursor1.png"),auto;
+    }
+
+    /*------------------- Columna Info personal ------------------*/
+    #informacion-personal
+    {
+        border: 1px solid #c83cb1;
+        border-radius: 18px;
+        text-align: left;
+        color: white;
+        font-size: 20px;
+        background-color: #010a13;
+        opacity: 85%;
+        padding: 1rem;
+        position: relative;
+    }
+
+    #contenedor-foto-cv
+    {
+        position: absolute;
+        margin-left: 60%;
+        margin-top: 1.5rem;
+    }
+
+    #foto-cv
+    {
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        border: 1px solid #c83cb1;
+        margin-bottom: 0.5rem;
+        font-size: 22px;
+        font-variant: small-caps;
+    }
+
+    /*------------------- Columna Carrusel ------------------*/
+    #expositor-trabajos
+    {
+        border: 1px solid #c83cb1;
+        border-radius: 18px;
+        text-align: left;
+        color: white;
+        font-size: 25px;
+        background-color: #010a13;
+        padding: 1rem;
+        opacity: 85%;
+    }
+
+    #carrusel
+    {   
+        border: 1px solid #c83cb1;
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+    }
+
+    #foto-trabajo1,  #foto-trabajo2
+    {
+        border-radius: 100px;
+        height: 19.4rem;
+        width: 100%;
+        animation: tracking-in-expand 3.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    }
+
+    /*------------------- Descripcion personal ------------------*/
+    #contenedor-descripcion-personal
+    {
+        border: 1px solid #c83cb1;
+        border-radius: 18px;
+        text-align: left;
+        color: white;
+        font-size: 25px;
+        background-color: #010a13;
+        opacity: 85%;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    #descripcion-personal
+    {
+        border-radius: 8px;
+        font-family: 'beaufort';
+        text-align: center;
+        width: 100%;
+        color: white;
+        padding: 0.5rem;
+        margin-top: 0.3rem;
+        font-size: 20px;
+        animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    }
+
+/*------------------- Contenido "Ver mas"------------------*/
+
+    /*------------------- Informacion academica y laboral ------------------*/
+    #informacion-academica
+    {
+        border: 1px solid #c83cb1;
+        border-radius: 18px;
+        text-align: left;
+        color: white;
+        font-size: 20px;
+        background-color: #010a13;
+        opacity: 85%;
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+
+    #informacion-laboral
+    {
+        border: 1px solid #c83cb1;
+        border-radius: 18px;
+        text-align: left;
+        color: white;
+        font-size: 20px;
+        background-color: #010a13;
+        opacity: 85%;
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+
+  /*------------------- Contenido "Ver mas 2"------------------*/
+
+    /*------------------- Fila Carrusel ------------------*/
+    #expositor-tecnologias
+    {
+        border: 1px solid #c83cb1;
+        border-radius: 18px;
+        text-align: left;
+        color: white;
+        font-size: 25px;
+        background-color: #010a13;
+        padding: 1rem;
+        opacity: 85%;
+        margin-top: 2rem;
+    }
+
+    #carrusel-tecnologias
+    {   
+        border: 1px solid #c83cb1;
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+    }
+
+    #informacion-preferencias
+    {
+        border: 1px solid #c83cb1;
+        border-radius: 18px;
+        text-align: left;
+        color: white;
+        font-size: 20px;
+        background-color: #010a13;
+        opacity: 85%;
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+
+
+/* ============================================ C O N T A C T O (pag) ================================================== */
+#contenido-contacto
+{
+  animation: slide-in-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+#agradecimiento-contacto
+{
+    border: 1px solid #c83cb1;
+    border-radius: 18px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background-color: #010a13;
+    opacity: 85%;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+#texto-contacto
+{
+  animation: tracking-in-expand 2.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+#informacion-contacto
+{
+    border: 1px solid #c83cb1;
+    border-radius: 18px;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    background-color: #010a13;
+    opacity: 85%;
+    padding: 1rem;
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#input-mail, #input-razon
+{
+  border: 1px solid #c83cb1;
+  border-radius: 18px;
+  font-size: 20px;
+  width: 100%;
+  height: 3.2rem;
+  background-color: #010a13;
+  opacity: 85%;
+  color: #c83cb1;
+  text-align: center;
+  animation: tracking-in-expand 2.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+#input-razon
+{
+  margin-top: 1.5rem;
+}
+
+#btn-enviar
+{
+  border: 1px solid #c83cb1;
+  border-radius: 18px;
+  font-size: 20px;
+  width: 100%;
+  height: 3.2rem;
+  margin-top: 1.5rem;
+  background-color: #010a13;
+  opacity: 85%;
+  color: #c83cb1;
+}
+
+
+
+
+/*====================================== Responsive Media-Querys ======================================*/
+/* Responsiveness de los BOTONES ("Ver mas, Volver") */
+@media (max-width: 1400px) 
+{
+  /* RESPONSIVE - SECCION 1 */
+  #expositor-trabajos
+  {
+    margin-top: 1.5rem;
+  }
+
+  /* RESPONSIVE - SECCION 2 */
+  #btn-volver
+  {
+    width: 95%;
+  }
+
+  #btn-verMas2
+  {
+    margin-bottom: 2rem;
+    width: 99%;
+  }
+
+  /* RESPONSIVE - SECCION 3 */
+  #btn-volver2
+  {
+    margin-bottom: 2rem;
+  }
+}
+
+/* Responsiveness del HEADER */
+@media (max-width: 1001px) 
+{
+  #opcion1, #opcion2, #opcion3
+  {
+    margin: 0px;
+  }
+}
+
+/* Responsiveness de la FOTO-CV (1°) */
+@media (max-width: 540px)
+{   
+  #foto-cv
+  {
+    width: 110px;
+    height: 110px;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+}
+
+/* Responsiveness de la FOTO-CV (2°) */
+@media (max-width: 450px)
+{   
+  #contenedor-foto-cv
+  {
+      position: relative;
+      margin-left: 30%;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+  }
+}
+
+/* Responsiveness de las columnas informativas (1°) || MQuerys (Only min-widhts) */
+@media (max-width: 1210px)
+{
+  #columna-infoPersonal, #columna-carruselTrabajos
+  {
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 800px)
+{
+  #columna-infoAcademica, #columna-expLaboral
+  {
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 992px)
+{
+  #columna-tecnologias, #columna-preferencias
+  {
+    min-width: 100%;
+  }
+}
+
+ 
